@@ -1,0 +1,241 @@
+html, body {
+    margin: 0;
+}
+
+
+.container__header
+{
+    background-image: url(../cloudCheque/header2.jpeg);
+    height: 100vh;
+    margin: 0 auto;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header
+{
+    padding: 0 15vw;
+}
+.company__name
+{
+    float: left;
+}
+
+.name
+{
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+.name:hover
+{
+    color: rgb(235, 178, 21);
+    transition: 0.5s;
+}
+
+
+.nav__btn {
+    float: right;
+}
+
+.nav:hover
+{
+    color: rgb(235, 178, 21);
+    transition: 0.5s; 
+}
+
+li a {
+    display: block;
+    color: rgb(233, 219, 203);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.1em;;
+}
+
+.header__text{
+    right: 0vw;
+    padding: 10vh 15vw;
+    display: block;
+    position: absolute;
+    bottom: 20vh;
+    width: 20vw;
+}
+
+.main__text{
+    color: rgb(233, 219, 203);
+    font-size:3em;
+    font-weight: 700; 
+}
+
+.more__btn
+{
+    text-decoration: none;
+    color: rgb(233, 219, 203);
+    font-size:1.2em;
+}
+.more__btn:hover{
+   color:rgb(235, 178, 21);
+   transition: .5s;
+}
+
+.container__about{
+    background-image: url(../cloudCheque/about.jpg);
+    height: 100vh;
+    margin: 0 auto;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.about__text{
+    color: rgb(233, 219, 203);
+}
+
+.about__main__text{
+    padding: 20vh 15vw;
+    font-size: 2.5em;
+}
+
+.about__spezials{
+    
+    padding: 10vh 15vw;
+    padding-top: 30px;
+}
+
+.spezial__name{
+    font-size: 1.5em;
+}
+
+.spezial{
+    padding-top: 5px;
+    font-size: 1.1em;
+}
+
+
+.container__plus{
+    background-image: url(../cloudCheque/plus.jpg);
+    height: 100vh;
+    margin: 0 auto;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.plus__text{
+    color: rgb(233, 219, 203);
+
+    
+}
+
+.plus__main__text{
+    font-size: 2.1em;
+    padding: 20vh 15vw;
+}
+
+.plus__additional__text{
+    font-size: 1.5em;
+    padding: 0vh 15vw;
+}
+
+.container__form{
+    background-image: url(../cloudCheque/contact.jpg);
+    height: 100vh;
+    margin: 0 auto;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.form__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20vh 15vw;
+}
+
+.form__text{
+    width: 33vw;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.form__inputs{
+    font-weight: 700;
+    padding-right: 21vw;
+    padding-top: 10vh;
+}
+
+.name__form{
+    padding-top: 3vh;
+}
+
+input[type=text] {
+    background-color:rgb(233, 219, 203) ;
+    padding:10px;
+    margin:10px 0; 
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    outline: none;
+    font-family:'Comfortaa', cursive;
+  }
+
+  input:focus{
+      background-color:rgb(235, 178, 21);
+      transition: .5s;
+  }
+
+.send{
+    font-family:'Comfortaa', cursive;
+    background-color: rgb(233, 219, 203);
+    border:0;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+}
+
+.send:hover{
+    background-color: rgb(235, 178, 21);
+    transition: .5s;
+}
+
+.container__footer{
+    background-color:rgb(233, 219, 203) ;
+    height: 10vh;
+    margin: 0 auto;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.footer__menu{
+    display: flex;
+    padding: 0 15vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.footer__text{
+    text-decoration: none;
+    color: black;
+}
