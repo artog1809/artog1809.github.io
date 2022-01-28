@@ -5,7 +5,7 @@ html, body {
 
 .container__header
 {
-    background-image: url(../cloudCheque/header2.jpeg);
+    background-image: url(header2.jpeg);
     height: 100vh;
     margin: 0 auto;
     width: 100vw;
@@ -90,7 +90,7 @@ li a {
 }
 
 .container__about{
-    background-image: url(../cloudCheque/about.jpg);
+    background-image: url(about.jpg);
     height: 100vh;
     margin: 0 auto;
     width: 100vw;
@@ -126,7 +126,7 @@ li a {
 
 
 .container__plus{
-    background-image: url(../cloudCheque/plus.jpg);
+    background-image: url(plus.jpg);
     height: 100vh;
     margin: 0 auto;
     width: 100vw;
@@ -153,7 +153,7 @@ li a {
 }
 
 .container__form{
-    background-image: url(../cloudCheque/contact.jpg);
+    background-image: url(contact.jpg);
     height: 100vh;
     margin: 0 auto;
     width: 100vw;
